@@ -5,15 +5,13 @@ import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.math.BigDecimal;
-import java.util.Date;
 
 @Entity
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "payment")
-public class Payment {
+public class Claim {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
